@@ -1,5 +1,6 @@
 package test;
 
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
 public class day3 {
@@ -23,6 +24,14 @@ public class day3 {
 	public void LoginAPICarLoan() {
 
 	System.out.println("LoginAPICarLoan");	
+		
+	
+	}
+	
+	@BeforeSuite
+	public void before_suite() {
+
+	System.out.println("before_suite");	
 		
 	}
 }
