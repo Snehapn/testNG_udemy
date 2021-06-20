@@ -1,5 +1,6 @@
 package test;
 
+import org.testng.Assert;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -18,7 +19,7 @@ public class day3 {
 	public void MobileLoginCarLoan() {
 
 	System.out.println("MobileLoginCarLoan");	
-		
+	Assert.assertTrue(false);
 	}
 	
 	@Test (groups = {"smoke"})
